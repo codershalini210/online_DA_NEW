@@ -53,12 +53,23 @@
 # nationality("ankit","American")
 # nationality("Ankita")
 # ---------------------------
-def sum(*args):
+# def sum(*args):
     
-    s = 0 
-    for n in args:
-        s=s+n
-    print("sum is ",s)
-sum(12,13)
-sum(33,44,12,42)
-sum(1,2,3,3,5,67,4,1,23,3,2,32)
+#     s = 0 
+#     for n in args:
+#         s=s+n
+#     print("sum is ",s)
+# sum(12,13)
+# sum(33,44,12,42)
+# sum(1,2,3,3,5,67,4,1,23,3,2,32)
+# ------------
+# print(10/2)
+# print(10%2)
+# print(13%2)
+def checkeven(n):
+    if(n%2 == 0):
+        print(n, "is even")
+    else:
+        print(n, "is odd")
+checkeven(12)
+checkeven(15)
