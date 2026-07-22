@@ -1,0 +1,10 @@
+import numpy as np
+sales = np.array([10000,15000,20000,25000,30000])
+print("total sales", np.sum(sales))
+print("max sales", np.max(sales))
+print("min sales", np.min(sales))
+print("avg sales", np.mean(sales))
+print("median sales", np.median(sales))
+print("std sales", np.std(sales))
+print("var sales", np.var(sales))
+print("high sales",sales[sales>np.mean(sales)])

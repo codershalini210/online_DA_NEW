@@ -54,7 +54,7 @@
 # nationality("Ankita")
 # ---------------------------
 # def sum(*args):
-    
+#     print(args, type(args))
 #     s = 0 
 #     for n in args:
 #         s=s+n
@@ -66,10 +66,28 @@
 # print(10/2)
 # print(10%2)
 # print(13%2)
-def checkeven(n):
-    if(n%2 == 0):
-        print(n, "is even")
-    else:
-        print(n, "is odd")
-checkeven(12)
-checkeven(15)
+# def checkeven(n):
+#     if(n%2 == 0):
+#         print(n, "is even")
+#     else:
+#         print(n, "is odd")
+# checkeven(12)
+# checkeven(15)
+# def student(**kwargs):
+#     # print(kwargs,"type",type(kwargs))
+#     for key,value in kwargs.items():
+#         print(key, "::: ",value)
+# student(name="Aman",marks=25)
+# student(username="Rajat",email="Rajat@gmail.com")
+# -------------------
+# def square(n):
+#     return n*n
+# x=square(5)
+# print(x)
+# ---------------------
+def calculate(x,y):
+    s= x+y
+    d=x-y
+    return s,d
+a,b = calculate(25,5)
+print("sum and divv of 25,5 is ",a,b)
