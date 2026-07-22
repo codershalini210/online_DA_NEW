@@ -1,9 +1,9 @@
 import pandas as pd
-data = pd.read_excel("../dummy.xlsx")
-# data = pd.read_csv("../dummy_1.csv")
-# print(data)
-# print(data.head())
-# print(data.head(2))
-
-# print(data.tail(5))
-print(data.tail(2))
+# s1 =pd.read_excel("../dummy.xlsx")
+s2 = pd.read_excel("../dummy.xlsx","Sheet2")
+# print(s1)
+# print(s2.info())
+# print(s2.describe())
+print(s2.shape)
+print(s2.dtypes)
+print(s2.columns)
